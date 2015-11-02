@@ -483,6 +483,7 @@
 				BAAB7CC01BE38A8400AD40EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BAAB7CC11BE38A8400AD40EB /* Build configuration list for PBXNativeTarget "FallingDownBarTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +492,7 @@
 				BAAB7CC31BE38A8400AD40EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BAAB7CC41BE38A8400AD40EB /* Build configuration list for PBXNativeTarget "FallingDownBarUITests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +501,7 @@
 				BAAB7CC61BE38A8400AD40EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
