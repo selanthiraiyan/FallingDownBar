@@ -56,6 +56,10 @@ class ViewController: UIViewController {
         let collisionBehaviour = UICollisionBehavior(items: viewsThatNeedGravity)
         collisionBehaviour.addBoundaryWithIdentifier(BottomLineIdentifier, fromPoint: self.bottomLine.frame.origin, toPoint: CGPointMake(self.bottomLine.frame.origin.x + self.bottomLine.frame.size.width, self.bottomLine.frame.origin.y))
         animator.addBehavior(collisionBehaviour)
+        
+        let elasticityBehaviour = UIDynamicItemBehavior(items: viewsThatNeedGravity)
+        elasticityBehaviour.elasticity = 0.52
+        animator.addBehavior(elasticityBehaviour)
     }
     
     
